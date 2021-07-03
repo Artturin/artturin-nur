@@ -15,6 +15,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   koneko = pkgs.callPackage ./pkgs/koneko { };
+  sftpman-gtk = pkgs.callPackage ./pkgs/sftpman-gtk { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
